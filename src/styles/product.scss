@@ -1,0 +1,58 @@
+.prod{
+    margin-top: 30px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+
+    .prod-show{
+
+        img{
+            height: 400px;
+            width: 400px;
+        }
+    }
+    .prod-show2{
+        width: 450px;
+        align-self: start;
+
+        h4{
+            text-transform: uppercase;
+            color: red;
+            padding-bottom: 10px;
+            font-size: larger;
+        }
+        h1{
+            padding-bottom: 5px;
+            line-height: 37px;
+        }
+        .lead{
+            font-weight: bolder;
+            padding-bottom: 30px;
+        }
+        h3{
+            font-size: 30px;
+            padding-bottom: 20px;
+        }
+        .lead2{
+            line-height: 27px;
+            padding-bottom: 10px;
+        }
+        button{
+            padding: 7px;
+            margin-right: 5px;
+            border: 1px solid  rgb(127, 11, 242);
+            outline: none;
+            background-color: white;
+            border-radius: 3px;
+            font-weight: 400;
+        }
+        .rr{
+            padding: 7px;
+            color: white;
+            background: rgb(127, 11, 242);
+
+        }
+    }
+}

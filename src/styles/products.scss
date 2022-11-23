@@ -1,0 +1,96 @@
+.products-container{
+    padding: 80px 0px 50px 80px;
+    h1{
+        color: black;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .col-12{
+        margin-bottom: 12px;
+    }
+    .row2{
+        justify-content: center;
+    }
+    .p-buttons{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+    .p-buttons button{
+        background: none;
+        border: 1px solid black;
+        border-radius: 3px;
+        outline: none;
+        color: black;
+        padding: 5px 5px;
+        margin: 25px 5px 5px 0px;
+    }
+    .p-buttons button:hover{
+        background: black;
+        color: white;
+    }
+    .p-api{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .col-md-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        width: 300px;
+        margin-bottom: 5px;
+        margin-right: 15px;
+
+        .card{
+            height: fit-content;
+            text-align: center;
+            padding: 4px;
+            flex-direction: column;
+
+            img{
+                height: 250px;
+                width: 200px;
+            }
+            .card-body{
+                display: flex;
+                flex-direction: column;
+                padding: 20px 0px;
+
+                h5{
+                    color: black;
+                    font-weight: 800;
+                    font-size: small;
+                }
+                p{
+                    color: black;
+                    padding-bottom: 10px;
+                }
+                a{
+                    padding: 10px 5px;
+                    border-radius: 3px;
+                    border: 1px solid black;
+                    color: #333;
+                    text-decoration: none;
+                }
+                a:hover{
+                    background: rgb(127, 11, 242);
+                    border: none;
+                    color: white;
+                }
+            }
+        }
+    }
+    }
+
+
+.loo{
+    color: black;
+    
+    skeleton{
+        height: 350px;
+    }
+}
