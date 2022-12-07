@@ -2,9 +2,12 @@ import React from 'react'
 import "../styles/navbar.css"
 import { useState } from 'react';
 import { NavLink } from "react-router-dom";
+import { useContext } from 'react';
+import CartContext from '../CartContext';
 
+export default function Navbar() {
+    const {items} = useContext(CartContext);
 
-export default function () {
   const [active, setactive] = useState(false);
 
   const smallviewNavbar = ()=>{
@@ -29,7 +32,7 @@ export default function () {
             <ul className='seconav'>
                 <li><NavLink to="/login">Login</NavLink></li>
                 <li><NavLink to="/register">Register</NavLink></li>
-                <li><NavLink to="/cart">cart (0)</NavLink></li>
+                <li><NavLink to="/cart">cart{items.length}</NavLink></li>
             </ul>
         </div>
 
